@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    width: 328px;
+    width: 228px;
     height: 40px;
     margin-top: 30px;
     margin-left: 64px;
@@ -31,6 +31,9 @@ header {
 
 .logo_place_header {
     position: absolute;
+    background: url("./pictures/logo.svg") no-repeat;
+    background-size: cover;
+
 
     
 
@@ -232,7 +235,7 @@ header {
 }
 
 
-.title {
+.feynman__title {
     width: 648px;
     margin: 0;
     padding: 0;
@@ -244,7 +247,7 @@ header {
 }
 
 
-.feynman_subtitle {
+.feynman__subtitle {
    margin: 70px 0 0 0;
    line-height: 51px;
    font-size: 36px;
@@ -253,7 +256,7 @@ header {
 
 
 
-.feynman-link {
+.feynman__link {
     margin: 0;
     margin-right: 40px;
     align-self: flex-end;
@@ -302,3 +305,100 @@ header {
     right: -210px;
     
 }
+
+
+.footer {
+    display: flex;
+    min-height: 350px;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+
+
+.footer__columns {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 90%;
+}
+
+
+.footer__columns_content_copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 711px;
+}
+
+
+.logo_place_footer {
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    background: url("./pictures/logo_white.svg") no-repeat;
+    background-size: cover;
+}
+
+
+.author {
+    margin: 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+
+.footer__columns_content_info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.footer__column-heading{
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+
+
+.footer__column-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    
+
+}
+
+
+.footer__column-links p {
+    margin: 0;
+}
+
+
+.footer__column-links_link {
+    margin: 0;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    margin-left: 0;
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+
+
+}
+
+
+.column-links_text {
+    margin-left: 10px;
+}
+
