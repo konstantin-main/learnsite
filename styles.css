@@ -84,7 +84,7 @@ header {
 }
 
 
-.header-link {
+.header__link {
     text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ header {
 }
 
 
-.section-title {
+.section__title {
     text-align: center;
     margin: 0;
     width: 60%;
@@ -173,7 +173,7 @@ header {
 }
 
 
-.section-subtitle {
+.section__subtitle {
     text-align: center;
     margin: 0;
     width: 60%;
@@ -235,7 +235,7 @@ header {
 }
 
 
-.feynman__title {
+.section__title_feynman-title {
     width: 648px;
     margin: 0;
     padding: 0;
@@ -247,7 +247,7 @@ header {
 }
 
 
-.feynman__subtitle {
+.section__subtitle_feynman-subtitle {
    margin: 70px 0 0 0;
    line-height: 51px;
    font-size: 36px;
@@ -281,7 +281,7 @@ header {
 }
 
 
-.section-title_theme_dark {
+.section__title_theme_dark {
     margin: 0;
     
 }
@@ -295,7 +295,7 @@ header {
 }
 
 
-.kaufman-triangle {
+.kaufman__triangle {
     display: flex;
     background: url("../../dev/learnsite/pictures/kaufman-triangle.svg") no-repeat;
     width: 877px;
