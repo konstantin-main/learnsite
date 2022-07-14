@@ -1,6 +1,6 @@
 .root {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     min-width: 1100px;
     max-width: 1600px;
 }
@@ -79,24 +79,8 @@
     margin: 0;
     right: 0;
     top: 30px;
-    animation:  square__pic 20s linear infinite;
 }
 
-
-
-@keyframes square__pic {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
 
 
 
@@ -112,7 +96,7 @@
 }
 
 
-.link_header {
+.header__link {
     text-decoration: none;
 }
 
@@ -471,7 +455,7 @@
 
 
 
-.link_feynman {
+.feynman__link {
     margin: 0;
     margin-right: 40px;
     align-self: flex-end;
@@ -520,12 +504,13 @@
     position: absolute;
     top: 0;
     right: -210px;
-    animation: kaufman__triangle 20s linear infinite ;
 }
 
+.rotation {
+    animation: rotation  20s linear infinite;
+}
 
-
-@keyframes kaufman__triangle {
+@keyframes rotation {
     0% {
         transform: rotate(0deg);
     }
@@ -639,7 +624,7 @@
 }
 
 
-.link_footer__column-link {
+.footer__column-link {
     margin: 0;
     margin-left: 10px;
     width: 16px;
