@@ -1,0 +1,9 @@
+.square__pic {
+    position: absolute;
+    width: 668px;
+    height: 568px;
+    background-color: #2f80ed;
+    margin: 0;
+    right: 0;
+    top: 30px;
+}
