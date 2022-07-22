@@ -1,0 +1,13 @@
+.footer__column-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    
+
+}
+
+.footer__column-links p {
+    margin: 0;
+}
