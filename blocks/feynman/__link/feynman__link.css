@@ -7,5 +7,11 @@
     font-weight: normal;
     text-decoration: none;
     color: #1f1f1f;
-    
+    transition: .3s linear;
+}
+
+
+.feynman__link:hover {
+opacity: .5;
+cursor: pointer;
 }

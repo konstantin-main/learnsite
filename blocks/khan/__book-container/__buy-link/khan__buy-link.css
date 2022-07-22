@@ -3,5 +3,9 @@
     font-size: 30px;
     font-weight: normal;
     text-decoration: none;
-
+    transition: .3s linear;
+}
+.khan__buy-link:hover {
+opacity: .5;
+cursor: pointer;
 }

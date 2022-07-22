@@ -11,10 +11,12 @@
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 16px;
-
-
+    transition: .3s linear;
 }
-
+.footer__column-link:hover {
+opacity: .5;
+cursor: pointer;
+}
 
 .footer__column-link:last-of-type {
     margin-bottom: 0;
