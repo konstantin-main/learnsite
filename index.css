@@ -13,6 +13,7 @@
 @import url(./blocks/digits/table/__cell/table__cell.css);
 @import url(./blocks/digits/table/__head/table__head.css);
 @import url(./blocks/digits/table/__text/table__text.css);
+@import url(./blocks/digits/table/__cell/__theme/table__cell_theme_dark.css);
 @import url(./blocks/feynman/feynman.css);
 @import url(./blocks/feynman/__title/section__title_feynman-title.css);
 @import url(./blocks/feynman/__subtitle/section__subtitle_feynman-subtitle.css);
